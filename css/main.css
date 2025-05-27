@@ -396,6 +396,20 @@ body {
   .main-content {
     padding: 0 2vw 24px 2vw;
   }
+  .mockup-row {
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .mockup-row img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
 }
 
 .meshell-logo-text {
@@ -416,5 +430,44 @@ body {
 @media (max-width: 600px) {
   .meshell-logo-text {
     font-size: 1.3rem;
+  }
+}
+
+.mockup-row {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+.mockup-row img {
+  width: 25%;
+  max-width: 25%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 900px) {
+  .mockup-row img {
+    width: 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .mockup-row {
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .mockup-row img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
   }
 }
